@@ -8,6 +8,7 @@ ebt:
 
 ${PACKAGE}: 
 	git clone ${REPO} ${PACKAGE}
+	[ ! -z ${BRANCH} ] && cd ${PACKAGE} && git checkout ${BRANCH}
 	make prepare
 
 publish:
