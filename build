@@ -1,0 +1,14 @@
+cd `dirname $0`
+EBTBS_HOME=`pwd`
+cd projects/$1 || exit $?
+
+mkdir -p $EBTBS_HOME/.ebtbs_state
+STATE=$EBTBS_HOME/.ebtbs_state/$1
+if [ -f $STATE ] 
+then
+    export BUILD_NUMBER=$((`cat $STATE` + 1))
+else 
+    export BUILD_NUMBER=1
+fi
+echo $BUILD_NUMBER > $STATE
+make $2
