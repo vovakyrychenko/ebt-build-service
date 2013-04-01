@@ -11,7 +11,7 @@ ${PACKAGE}:
 	make prepare
 
 publish:
-	../../publish ${PACKAGE} out/dist/*.ez
+	../../publish "${PACKAGE} ${REPO}" out/dist/*.ez
 
 clean:
 	rm -rf ${PACKAGE}
