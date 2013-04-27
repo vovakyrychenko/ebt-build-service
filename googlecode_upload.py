@@ -241,7 +241,7 @@ def main():
 
   status, reason, url = upload_find_auth(file_path, options.project,
                                          options.summary, labels,
-                                         options.user, options.password)
+                                         options.user, options.password, 1)
   if url:
     print 'The file was uploaded successfully.'
     print 'URL: %s' % url

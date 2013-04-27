@@ -1,4 +1,4 @@
 for f in $2
 do
-    `dirname $0`/googlecode_upload.py -s "$1" -p erlang-build-tool $f
+    `dirname $0`/googlecode_upload.py -s "$1" -p erlang-build-tool $f 
 done
