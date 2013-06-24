@@ -10,4 +10,6 @@ projects/ranch/ranch
 projects/cowboy/cowboy
 projects/ibrowse/ibrowse
 projects/yaws/yaws
+projects/getopt/getopt
+projects/erlangxl/erlangxl
 

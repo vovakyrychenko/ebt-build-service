@@ -12,7 +12,7 @@ ${PACKAGE}:
 	make prepare
 
 publish:
-	../../publish "${PACKAGE} ${REPO}" out/dist/*.ez
+	../../publish "${PACKAGE} ${REPO}" out/dist
 
 clean:
 	rm -rf ${PACKAGE}
