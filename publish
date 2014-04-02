@@ -1,4 +1,5 @@
 for f in $2/*.ez
 do
-    `dirname $0`/googlecode_upload.py -s "$1" -p erlang-build-tool $f 
+    cp $f /srv/repo
+#    `dirname $0`/googlecode_upload.py -s "$1" -p erlang-build-tool $f 
 done
