@@ -1,4 +1,4 @@
-PACKAGE=ebml
+PACKAGE=et_libex
 REPO=git://github.com/erlangtoolbox/${PACKAGE}.git
 
 include ../../common.mk
