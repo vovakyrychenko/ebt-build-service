@@ -15,3 +15,6 @@ projects/erlangxl/erlangxl
 projects/ebloom/ebloom
 projects/cbase64/cbase64*
 projects/ebml/ebml
+projects/protobuffs/protobuffs/
+projects/gpb/gpb
+projects/cowboot/cowboot
