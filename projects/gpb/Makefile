@@ -1,5 +1,5 @@
 PACKAGE=gpb
-REPO=git@github.com:erlangtoolbox/${PACKAGE}.git
+REPO=git://github.com/erlangtoolbox/${PACKAGE}.git
 
 include ../../common.mk
 
