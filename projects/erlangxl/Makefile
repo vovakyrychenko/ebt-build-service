@@ -1,6 +1,6 @@
 PACKAGE=erlangxl
 REPO=git://github.com/strikead/${PACKAGE}.git
-BRANCH=develop
+#BRANCH=develop
 
 include ../../common.mk
 
