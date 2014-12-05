@@ -1,4 +1,4 @@
-PACKAGE=et_libex
+PACKAGE=etxl
 REPO=git://github.com/erlangtoolbox/${PACKAGE}.git
 
 include ../../common.mk

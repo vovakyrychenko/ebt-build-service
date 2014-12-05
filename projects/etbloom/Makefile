@@ -1,6 +1,5 @@
-PACKAGE=erlangxl
+PACKAGE=etbloom
 REPO=git://github.com/erlangtoolbox/${PACKAGE}.git
-#BRANCH=develop
 
 include ../../common.mk
 
