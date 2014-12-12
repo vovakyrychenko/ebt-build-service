@@ -1,5 +1,5 @@
 PACKAGE=ebt
-REPO=git@github.com:erlangtoolbox/${PACKAGE}.git
+REPO=git://github.com/erlangtoolbox/${PACKAGE}.git
 
 all: ${PACKAGE} git-update ebt-make publish
 
